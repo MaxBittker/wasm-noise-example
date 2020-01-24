@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello wasm-pack!</title>
+    <title>Hello wasm-pack (JS comparison)!</title>
   </head>
   <body>
     <style>
@@ -19,13 +19,11 @@
         font-size: 8px;
       }
     </style>
-    <noscript
-      >This page contains webassembly and javascript content, please enable
-      javascript in your browser.</noscript
-    >
-    <script src="./bootstrap.js"></script>
+    <script src="./perlin.js"></script>
+
+    <script src="./js-example.js"></script>
     <div>
-      wasm-noise:
+      noise.js (for comparison):
       <div id="output"></div>
     </div>
   </body>

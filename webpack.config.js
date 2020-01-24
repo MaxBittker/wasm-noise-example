@@ -5,7 +5,8 @@ module.exports = {
   entry: "./bootstrap.js",
   output: {
     path: path.resolve(__dirname, "docs"),
-    filename: "bootstrap.js"
+    filename: "bootstrap.js",
+    publicPath: "./"
   },
   mode: "development",
   plugins: [new CopyWebpackPlugin(["index.html"])]
